@@ -1,0 +1,225 @@
+
+.w1000{max-width:1000px;margin:auto}
+.left{float:left}
+.right{float:right}
+.clear{clear:both}
+.center{
+    text-align: center;
+}
+body
+{
+	overflow-x:hidden;
+	/*background: url("https://i.imgur.com/8goo7Fs.jpg");*/
+}
+a{
+	color:red;
+	text-decoration: none;
+
+}
+a:hover{
+	color: #FF9800;
+}
+.main
+{
+	background-color: #fff27e47;
+    border: 1px dashed #FF9800;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #3e8460;
+    font-size: larger;
+}
+.content1
+{
+	width: 100%;
+    background: #ffeb3bcc;
+    padding: 1% 0px 1% 0px;
+}
+.content2
+{
+	width: 100%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+.content2 .social img
+{
+	width: 200px;
+    height: 200px;
+}
+.social div 
+{
+    margin: 6%;
+}
+.social div:hover
+{
+	border: 3px dashed #F44336;
+    padding: 1%;
+}
+.content2 .social img:hover
+{
+	width: 180px;
+    height: 180px;
+}
+.post
+{
+	width: 48%;
+    height: 170px;
+    margin: 0 auto;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.post .img img
+{
+	width: 125px;
+}
+.post .ct
+{
+	width: 70%;
+}
+.post .ct p
+{
+	margin: 0% 0% 1% 5%;
+}
+
+
+.tokencontent
+{
+	height: 23px;
+    width: 177px;
+    padding: 0px;
+}
+
+.picedit
+{
+	margin: 1% auto;
+    text-align: center;
+    overflow: hidden;
+}
+.picedit img
+{
+	max-width: 150px;
+    max-height: 150px;
+}
+
+.inputedit
+{
+	margin: 1%;
+	color: #ff9800; 
+}
+.inputedit p
+{
+	margin: 0 auto;
+}
+input:focus-visible {
+    color: red;
+}
+.inputedit input,select
+{
+	width: 95%;
+    border-radius: 5px;
+    border: 1px dashed #ff9800;
+    padding: 1%;
+    color: #109979;
+    outline: none;
+}
+.submitedit
+{
+	float: right;
+    margin: 1%;
+    padding-right: 5%;
+}
+.submitedit input
+{
+	border: 1px dashed #ff9800;
+    border-radius: 5px;
+    padding: 10%;
+    width: 125px;
+    background: #ffeb3b;
+    color: #d62518;
+}
+.buttoncute
+{
+    border: 1px dashed #d62518;
+    border-radius: 5px;
+    float: none;
+    margin: 1% auto;
+    width: 10%;
+    text-align: center;
+}
+.buttoncute:hover
+{
+    border: 2px dashed #45d68c;
+}
+.buttoncute a:hover
+{
+    color: #45d68c;
+}
+.pagination
+{
+    width: 100%;
+    margin: 0 auto;
+    /*height: 50px;*/
+    text-align: center;
+    font-size: medium;
+    font-family: monospace;
+    color: red !important;
+}
+.pagination img
+{
+    border-radius: 20px;
+    border: 1px #ff9800 dashed;
+}
+.kunimage
+{
+    margin: 5% auto;
+    text-align: center;
+    width: 300px;
+    border: 1px #ff5722 dashed;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 1%;
+    background: #ffff0061;
+}
+.kunimage img{
+    border-radius: 5px;
+}
+
+.kunprofile
+{
+    overflow: hidden;
+    padding: 1%;
+}
+.kunprofile img{
+    border-radius: 5px;
+}
+
+.content3 {
+    width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.content3 h3{
+    font-size: larger;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #bd4f00;
+}
+
+.content3 .info-post{
+    font-size: small;
+    color: darkblue;
+    text-transform: capitalize;
+}
+.content3 .info-post{
+    font-size: small;
+    color: darkblue;
+    text-transform: capitalize;
+}
+.content3 div{
+    float: left;
+    margin: 2%;
+    padding: 2%;
+    border: 1px #b0259b dashed;
+    overflow: hidden;
+    border-radius: 5px;
+}
